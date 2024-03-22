@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --fonte: 'Lato',sans-serif;
+    --cor-bg: #ffffff;
+    --cor-botoes: rgb(137, 43, 226);
+    --cor-hover: rgb(180,18,185);
+}
+
+body{
+    background-image:url(black-texture.jpg) ;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background-color: var(--cor-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+h1{
+    font-size: 3rem;
+    color: var(--cor-botoes);
+    text-align: center;
+}
+
+p{
+    margin: 10px 0px 20px 0px;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    font-family: var(--fonte);
+}
+
+a{
+    text-decoration: none;
+    background-color: var(--cor-botoes);
+    color: var(--cor-bg);
+    margin: 10px;
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+    border-radius: 40px;
+
+}
+
+a:hover{
+    background-color: var(--cor-hover);
+}
